@@ -6,9 +6,14 @@
 * @global Plugin $oPlugin
 */
 
-if (Shop::getPageType() == 28 && pq('#inquiry-form')->count()) {
+if (Shop::getPageType() == 18) {
 
     $scripts = $oPlugin->cFrontendPfad . 'template/' . 'scripts.tpl';
     pq('#app')->after($smarty->fetch($scripts));
+
+    $template = $oPlugin->cFrontendPfad . 'template/' . 'categories.tpl';
+    pq('#content')->before(
+        $smarty->fetch("{$oPlugin->cFrontendPfad}template/categories.tpl")
+    );
 }
 

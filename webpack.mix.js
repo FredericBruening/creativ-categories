@@ -2,8 +2,8 @@ let mix = require('laravel-mix');
 let tailwindcss = require('tailwindcss');
 require('laravel-mix-purgecss');
 
-mix.js('resources/inquiry-form.js', 'version/100/frontend/js')
-   .sass('resources/inquiry-form.scss', 'version/100/frontend/css')
+mix.js('resources/creativ-categories.js', 'version/100/frontend/js')
+   .sass('resources/creativ-categories.scss', 'version/100/frontend/css')
    .setPublicPath('./')
    .options({
        processCssUrls: false,

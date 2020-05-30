@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <jtlshop3plugin>
-	<Name>Anfrage Formular</Name>
-	<Description>Anfrage Formular fuer Capri-shirt</Description>
+	<Name>Creativ Categories</Name>
+	<Description>Cool Categories in the homepage</Description>
 	<Author>Frederic B.</Author>
 	<URL>fredesk.com</URL>
-	<PluginID>cs_inquiry_form</PluginID>
+	<PluginID>creativ_categories</PluginID>
 	<XMLVersion>100</XMLVersion>
 	<Shop4Version>400</Shop4Version>
 	<Install>
@@ -14,24 +14,5 @@
 		<Hooks>
 			<Hook id="140">filter.php</Hook>
 		</Hooks>
-		<FrontendLink>
-			<Link>
-				<Filename>inquiry.php</Filename>
-				<Name>Anfrage</Name>
-				<Template>inquiry.tpl</Template>
-				<LinkGroup>megamenu</LinkGroup>
-				<VisibleAfterLogin>N</VisibleAfterLogin>
-				<PrintButton>N</PrintButton>
-				<SSL>inquiry.php</SSL>
-				<LinkLanguage iso="GER">
-					<Seo>anfrage</Seo>
-					<Name>Anfrage</Name>
-					<Title>Anfrage</Title>
-					<MetaTitle>Anfrage</MetaTitle>
-					<MetaKeywords>Anfrage</MetaKeywords>
-					<MetaDescription>Anfrage</MetaDescription>
-				</LinkLanguage>
-			</Link>
-		</FrontendLink>
 	</Install>
 </jtlshop3plugin>
