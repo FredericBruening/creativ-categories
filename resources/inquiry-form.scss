@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+
+#inquiry-form {
+    input {
+        @apply w-full border border-gray-400 rounded px-2 py-1;
+
+        &:focus {
+            @apply outline-none bg-gray-100;
+        }
+    }
+}
+
+@tailwind utilities;
+
+/* purgecss start ignore */
+@import "~verte/dist/verte.css";
+
+  /* purgecss end ignore */
