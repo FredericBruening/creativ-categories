@@ -15,7 +15,7 @@ if (Shop::getPageType() == 18) {
 
     $smarty->assign('creativ_path', $oPlugin->cFrontendPfadURL);
 
-    pq('.slider-wrapper')->after(
+    pq('#content')->before(
         $smarty->fetch("{$oPlugin->cFrontendPfad}template/categories.tpl")
     );
 }
