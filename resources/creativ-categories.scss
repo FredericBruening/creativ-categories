@@ -1,8 +1,30 @@
 @tailwind base;
 @tailwind components;
 
-#creativ-categories {
-    
+.creativ-categories {
+    @apply w-full my-16 grid grid-cols-3 gap-4;
+
+    .category {
+        @apply relative;
+
+        &:hover {
+            @apply shadow;
+        }
+
+        img {
+            @apply h-auto w-full;
+        }
+
+        .name {
+            @apply w-full bg-blue-600 bg-opacity-25 absolute tracking-wider bottom-0 text-white text-4xl text-center font-semibold py-5 px-3 capitalize;
+        }
+    }
+
+    @variants group-hover {
+        .category > .name {
+            @apply bg-opacity-75;
+        }
+    }
 }
 
 @tailwind utilities;

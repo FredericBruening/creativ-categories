@@ -17,7 +17,6 @@ mix.js('resources/creativ-categories.js', 'version/100/frontend/js')
        ],
        defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
        extensions: ['vue', 'js', 'tpl', 'php'],
-       whitelistPatterns: [/^(verte|slider|dropzone|vue-dropzone)/]
    });
 
 

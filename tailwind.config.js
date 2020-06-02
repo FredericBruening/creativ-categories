@@ -1,5 +1,8 @@
 module.exports = {
     prefix: 'tw-',
+    purge: [
+        './version/**/*.tpl'
+    ],
     theme: {
         extend: {
             boxShadow: {
