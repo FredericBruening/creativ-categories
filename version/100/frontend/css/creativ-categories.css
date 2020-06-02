@@ -2910,23 +2910,23 @@
   --bg-opacity: 1
 }
 
-.focus\:tw-bg-opacity-0:focus {
+.tw-group:hover .group-hover\:tw-bg-opacity-0 {
   --bg-opacity: 0
 }
 
-.focus\:tw-bg-opacity-25:focus {
+.tw-group:hover .group-hover\:tw-bg-opacity-25 {
   --bg-opacity: 0.25
 }
 
-.focus\:tw-bg-opacity-50:focus {
+.tw-group:hover .group-hover\:tw-bg-opacity-50 {
   --bg-opacity: 0.5
 }
 
-.focus\:tw-bg-opacity-75:focus {
+.tw-group:hover .group-hover\:tw-bg-opacity-75 {
   --bg-opacity: 0.75
 }
 
-.focus\:tw-bg-opacity-100:focus {
+.tw-group:hover .group-hover\:tw-bg-opacity-100 {
   --bg-opacity: 1
 }
 
@@ -12567,6 +12567,10 @@
   box-shadow: none
 }
 
+.tw-shadow-creativ {
+  box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
+}
+
 .hover\:tw-shadow-xs:hover {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05)
 }
@@ -12607,6 +12611,10 @@
   box-shadow: none
 }
 
+.hover\:tw-shadow-creativ:hover {
+  box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
+}
+
 .focus\:tw-shadow-xs:focus {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05)
 }
@@ -12645,6 +12653,10 @@
 
 .focus\:tw-shadow-none:focus {
   box-shadow: none
+}
+
+.focus\:tw-shadow-creativ:focus {
+  box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
 }
 
 .tw-fill-current {
@@ -20128,66 +20140,6 @@
     --bg-opacity: 1;
     background-color: #702459;
     background-color: rgba(112, 36, 89, var(--bg-opacity))
-  }
-
-  .sm\:tw-bg-opacity-0 {
-    --bg-opacity: 0
-  }
-
-  .sm\:tw-bg-opacity-25 {
-    --bg-opacity: 0.25
-  }
-
-  .sm\:tw-bg-opacity-50 {
-    --bg-opacity: 0.5
-  }
-
-  .sm\:tw-bg-opacity-75 {
-    --bg-opacity: 0.75
-  }
-
-  .sm\:tw-bg-opacity-100 {
-    --bg-opacity: 1
-  }
-
-  .sm\:hover\:tw-bg-opacity-0:hover {
-    --bg-opacity: 0
-  }
-
-  .sm\:hover\:tw-bg-opacity-25:hover {
-    --bg-opacity: 0.25
-  }
-
-  .sm\:hover\:tw-bg-opacity-50:hover {
-    --bg-opacity: 0.5
-  }
-
-  .sm\:hover\:tw-bg-opacity-75:hover {
-    --bg-opacity: 0.75
-  }
-
-  .sm\:hover\:tw-bg-opacity-100:hover {
-    --bg-opacity: 1
-  }
-
-  .sm\:focus\:tw-bg-opacity-0:focus {
-    --bg-opacity: 0
-  }
-
-  .sm\:focus\:tw-bg-opacity-25:focus {
-    --bg-opacity: 0.25
-  }
-
-  .sm\:focus\:tw-bg-opacity-50:focus {
-    --bg-opacity: 0.5
-  }
-
-  .sm\:focus\:tw-bg-opacity-75:focus {
-    --bg-opacity: 0.75
-  }
-
-  .sm\:focus\:tw-bg-opacity-100:focus {
-    --bg-opacity: 1
   }
 
   .sm\:tw-bg-bottom {
@@ -29827,6 +29779,10 @@
     box-shadow: none
   }
 
+  .sm\:tw-shadow-creativ {
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
+  }
+
   .sm\:hover\:tw-shadow-xs:hover {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05)
   }
@@ -29867,6 +29823,10 @@
     box-shadow: none
   }
 
+  .sm\:hover\:tw-shadow-creativ:hover {
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
+  }
+
   .sm\:focus\:tw-shadow-xs:focus {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05)
   }
@@ -29905,6 +29865,10 @@
 
   .sm\:focus\:tw-shadow-none:focus {
     box-shadow: none
+  }
+
+  .sm\:focus\:tw-shadow-creativ:focus {
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
   }
 
   .sm\:tw-fill-current {
@@ -37389,66 +37353,6 @@
     --bg-opacity: 1;
     background-color: #702459;
     background-color: rgba(112, 36, 89, var(--bg-opacity))
-  }
-
-  .md\:tw-bg-opacity-0 {
-    --bg-opacity: 0
-  }
-
-  .md\:tw-bg-opacity-25 {
-    --bg-opacity: 0.25
-  }
-
-  .md\:tw-bg-opacity-50 {
-    --bg-opacity: 0.5
-  }
-
-  .md\:tw-bg-opacity-75 {
-    --bg-opacity: 0.75
-  }
-
-  .md\:tw-bg-opacity-100 {
-    --bg-opacity: 1
-  }
-
-  .md\:hover\:tw-bg-opacity-0:hover {
-    --bg-opacity: 0
-  }
-
-  .md\:hover\:tw-bg-opacity-25:hover {
-    --bg-opacity: 0.25
-  }
-
-  .md\:hover\:tw-bg-opacity-50:hover {
-    --bg-opacity: 0.5
-  }
-
-  .md\:hover\:tw-bg-opacity-75:hover {
-    --bg-opacity: 0.75
-  }
-
-  .md\:hover\:tw-bg-opacity-100:hover {
-    --bg-opacity: 1
-  }
-
-  .md\:focus\:tw-bg-opacity-0:focus {
-    --bg-opacity: 0
-  }
-
-  .md\:focus\:tw-bg-opacity-25:focus {
-    --bg-opacity: 0.25
-  }
-
-  .md\:focus\:tw-bg-opacity-50:focus {
-    --bg-opacity: 0.5
-  }
-
-  .md\:focus\:tw-bg-opacity-75:focus {
-    --bg-opacity: 0.75
-  }
-
-  .md\:focus\:tw-bg-opacity-100:focus {
-    --bg-opacity: 1
   }
 
   .md\:tw-bg-bottom {
@@ -47088,6 +46992,10 @@
     box-shadow: none
   }
 
+  .md\:tw-shadow-creativ {
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
+  }
+
   .md\:hover\:tw-shadow-xs:hover {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05)
   }
@@ -47128,6 +47036,10 @@
     box-shadow: none
   }
 
+  .md\:hover\:tw-shadow-creativ:hover {
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
+  }
+
   .md\:focus\:tw-shadow-xs:focus {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05)
   }
@@ -47166,6 +47078,10 @@
 
   .md\:focus\:tw-shadow-none:focus {
     box-shadow: none
+  }
+
+  .md\:focus\:tw-shadow-creativ:focus {
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
   }
 
   .md\:tw-fill-current {
@@ -54650,66 +54566,6 @@
     --bg-opacity: 1;
     background-color: #702459;
     background-color: rgba(112, 36, 89, var(--bg-opacity))
-  }
-
-  .lg\:tw-bg-opacity-0 {
-    --bg-opacity: 0
-  }
-
-  .lg\:tw-bg-opacity-25 {
-    --bg-opacity: 0.25
-  }
-
-  .lg\:tw-bg-opacity-50 {
-    --bg-opacity: 0.5
-  }
-
-  .lg\:tw-bg-opacity-75 {
-    --bg-opacity: 0.75
-  }
-
-  .lg\:tw-bg-opacity-100 {
-    --bg-opacity: 1
-  }
-
-  .lg\:hover\:tw-bg-opacity-0:hover {
-    --bg-opacity: 0
-  }
-
-  .lg\:hover\:tw-bg-opacity-25:hover {
-    --bg-opacity: 0.25
-  }
-
-  .lg\:hover\:tw-bg-opacity-50:hover {
-    --bg-opacity: 0.5
-  }
-
-  .lg\:hover\:tw-bg-opacity-75:hover {
-    --bg-opacity: 0.75
-  }
-
-  .lg\:hover\:tw-bg-opacity-100:hover {
-    --bg-opacity: 1
-  }
-
-  .lg\:focus\:tw-bg-opacity-0:focus {
-    --bg-opacity: 0
-  }
-
-  .lg\:focus\:tw-bg-opacity-25:focus {
-    --bg-opacity: 0.25
-  }
-
-  .lg\:focus\:tw-bg-opacity-50:focus {
-    --bg-opacity: 0.5
-  }
-
-  .lg\:focus\:tw-bg-opacity-75:focus {
-    --bg-opacity: 0.75
-  }
-
-  .lg\:focus\:tw-bg-opacity-100:focus {
-    --bg-opacity: 1
   }
 
   .lg\:tw-bg-bottom {
@@ -64349,6 +64205,10 @@
     box-shadow: none
   }
 
+  .lg\:tw-shadow-creativ {
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
+  }
+
   .lg\:hover\:tw-shadow-xs:hover {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05)
   }
@@ -64389,6 +64249,10 @@
     box-shadow: none
   }
 
+  .lg\:hover\:tw-shadow-creativ:hover {
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
+  }
+
   .lg\:focus\:tw-shadow-xs:focus {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05)
   }
@@ -64427,6 +64291,10 @@
 
   .lg\:focus\:tw-shadow-none:focus {
     box-shadow: none
+  }
+
+  .lg\:focus\:tw-shadow-creativ:focus {
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
   }
 
   .lg\:tw-fill-current {
@@ -71911,66 +71779,6 @@
     --bg-opacity: 1;
     background-color: #702459;
     background-color: rgba(112, 36, 89, var(--bg-opacity))
-  }
-
-  .xl\:tw-bg-opacity-0 {
-    --bg-opacity: 0
-  }
-
-  .xl\:tw-bg-opacity-25 {
-    --bg-opacity: 0.25
-  }
-
-  .xl\:tw-bg-opacity-50 {
-    --bg-opacity: 0.5
-  }
-
-  .xl\:tw-bg-opacity-75 {
-    --bg-opacity: 0.75
-  }
-
-  .xl\:tw-bg-opacity-100 {
-    --bg-opacity: 1
-  }
-
-  .xl\:hover\:tw-bg-opacity-0:hover {
-    --bg-opacity: 0
-  }
-
-  .xl\:hover\:tw-bg-opacity-25:hover {
-    --bg-opacity: 0.25
-  }
-
-  .xl\:hover\:tw-bg-opacity-50:hover {
-    --bg-opacity: 0.5
-  }
-
-  .xl\:hover\:tw-bg-opacity-75:hover {
-    --bg-opacity: 0.75
-  }
-
-  .xl\:hover\:tw-bg-opacity-100:hover {
-    --bg-opacity: 1
-  }
-
-  .xl\:focus\:tw-bg-opacity-0:focus {
-    --bg-opacity: 0
-  }
-
-  .xl\:focus\:tw-bg-opacity-25:focus {
-    --bg-opacity: 0.25
-  }
-
-  .xl\:focus\:tw-bg-opacity-50:focus {
-    --bg-opacity: 0.5
-  }
-
-  .xl\:focus\:tw-bg-opacity-75:focus {
-    --bg-opacity: 0.75
-  }
-
-  .xl\:focus\:tw-bg-opacity-100:focus {
-    --bg-opacity: 1
   }
 
   .xl\:tw-bg-bottom {
@@ -81610,6 +81418,10 @@
     box-shadow: none
   }
 
+  .xl\:tw-shadow-creativ {
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
+  }
+
   .xl\:hover\:tw-shadow-xs:hover {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05)
   }
@@ -81650,6 +81462,10 @@
     box-shadow: none
   }
 
+  .xl\:hover\:tw-shadow-creativ:hover {
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
+  }
+
   .xl\:focus\:tw-shadow-xs:focus {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05)
   }
@@ -81688,6 +81504,10 @@
 
   .xl\:focus\:tw-shadow-none:focus {
     box-shadow: none
+  }
+
+  .xl\:focus\:tw-shadow-creativ:focus {
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),0 18px 36px -18px rgba(0,0,0,0.3)
   }
 
   .xl\:tw-fill-current {

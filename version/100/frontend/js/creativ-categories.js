@@ -115,8 +115,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /home/exklibur/code/moontex/includes/plugins/creativ-categories/resources/creativ-categories.js */"./resources/creativ-categories.js");
-module.exports = __webpack_require__(/*! /home/exklibur/code/moontex/includes/plugins/creativ-categories/resources/creativ-categories.scss */"./resources/creativ-categories.scss");
+__webpack_require__(/*! /home/exklibur/code/capri-shirt/includes/plugins/creativ-categories/resources/creativ-categories.js */"./resources/creativ-categories.js");
+module.exports = __webpack_require__(/*! /home/exklibur/code/capri-shirt/includes/plugins/creativ-categories/resources/creativ-categories.scss */"./resources/creativ-categories.scss");
 
 
 /***/ })
