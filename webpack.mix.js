@@ -11,12 +11,9 @@ mix.js('resources/creativ-categories.js', 'version/100/frontend/js')
    })
    .purgeCss({
        enabled: mix.inProduction(),
-       folders: [
-           './resources/',
-           './version/',
-       ],
-       defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
-       extensions: ['vue', 'js', 'tpl', 'php'],
+       extend: {
+           content: [path.join(__dirname, 'version/**/*.tpl')],
+       },
    });
 
 
