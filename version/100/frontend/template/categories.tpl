@@ -2,7 +2,7 @@
 
 {if !empty($categories)}
     <link rel="stylesheet" href="{$creativ_path}css/creativ-categories.css">
-    <div class="tw-w-full tw-my-16 tw-grid tw-grid-cols-3 tw-gap-4">
+    <div class="tw-w-full tw-mb-16 tw-grid tw-grid-cols-3 tw-gap-4">
         {foreach name='categories' from=$categories item='category'}
             <a class="tw-group hover:tw-shadow tw-relative" href="{$category->cURLFull}">
                 <img class="tw-object-cover tw-h-full tw-w-full lozad" src="{$category->cBildURL}"
